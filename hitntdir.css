@@ -1,0 +1,122 @@
+.header {
+  margin-top: 30px !important;
+}
+.header .navbar-default {
+  background-color: #35CFF6;
+}
+.transparent_menu, .navbar .navbar-default {
+  background-color: #35CFF6 !important;
+}
+.mobile-main-menu, .homepage_steps {
+  background: #35CFF6;
+}
+.header .btn_search {
+  background-color: #35CFF6;
+  border: 1px solid #35CFF6;
+}
+.btn-primary {
+  background-color: #35CFF6;
+  border-color: #35CFF6;
+}
+ul.sidebar-nav li:nth-child(4) a, ul.sidebar-nav li:nth-child(5) a,
+ul.sidebar-nav li:nth-child(6) a, ul.sidebar-nav li:nth-child(7) a {
+  display: none;
+}
+.table-view .table-view-group .xs-bmargin, .table-view .table-view-group .member_social_icons {
+  display: none !important;
+}
+.mini-nav, .website-search, button.fa-heart, .module > h3 {
+  display: none;
+}
+.newsletter_row, .homepage_step_2, .homepage-join-module, #website_logo {
+  display: none;
+}
+ul.footer_menu li:nth-child(2) ul li:nth-child(3), .footer-banner-container {
+  display: none;
+}
+ul.footer_menu li:nth-child(3), ul.footer_menu li:nth-child(4), ul.footer_menu li:nth-child(6), ul.footer_menu li:nth-child(7) {
+  display: none;
+}
+.make-connection, [class='module'] {
+  display: none;
+}
+.info_section {
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+}
+.member-profile-header > .xs-text-center > .row:nth-child(2) {
+  position: relative;
+  height: 270px;
+}
+.profile-header-write-review > a {
+  position: absolute;
+  top: 362%;
+}
+.profile-header-send-message + div {
+  position: absolute;
+  width: 100%;
+  top: 40%
+}
+.profile-header-send-message {
+  position: absolute;
+  width: 100%;
+  top: 21%;
+}
+#topbarimage {
+  margin-top: 3px;
+  width: 24%;
+}
+@media(max-width:780px) {
+  .profile-header-write-review > a {
+    width: 96%;
+  }
+  #topbarimage {
+    margin-top: 3px;
+    width: 30%;
+  }
+}
+@media(max-width:700px) {
+  .profile-header-write-review > a {
+    width: 95%;
+  }
+  #topbarimage {
+    margin-top: 3px;
+    width: 35%;
+  }
+}
+@media(max-width:640px) {
+  .profile-header-write-review > a {
+    width: 95%;
+  }
+  #topbarimage {
+    margin-top: 4px;
+    width: 35%;
+  }
+}
+@media(max-width:440px) {
+  .profile-header-write-review > a {
+    width: 93%;
+  }
+  #topbarimage {
+    width: 55%;
+  }
+}
+@media(max-width:380px) {
+  .profile-header-write-review > a {
+    width: 92%;
+  }
+  #topbarimage {
+    margin-top: 5px;
+    width: 60%;
+  }
+}
+@media(max-width:320px) {
+  .profile-header-write-review > a {
+    width: 90%;
+  }
+  #topbarimage {
+    margin-top: 6px;
+    width: 65%;
+  }
+}
