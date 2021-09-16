@@ -1,13 +1,10 @@
 .header {
   margin-top: 30px !important;
 }
-.header .navbar-default {
-  background-color: #35CFF6;
-}
-.transparent_menu, .navbar .navbar-default {
+.header .navbar-default, .transparent_menu, .navbar .navbar-default {
   background-color: #35CFF6 !important;
 }
-.mobile-main-menu, .homepage_steps {
+ {
   background: #35CFF6;
 }
 .header .btn_search {
@@ -31,10 +28,10 @@ ul.sidebar-nav li:nth-child(6) a, ul.sidebar-nav li:nth-child(7) a {
 .newsletter_row, .homepage_step_2, .homepage-join-module, #website_logo {
   display: none;
 }
-ul.footer_menu li:nth-child(2) ul li:nth-child(3), .footer-banner-container {
+ul.footer_menu > li:nth-child(2) > ul > li:nth-child(4), .list-social-links {
   display: none;
 }
-ul.footer_menu li:nth-child(3), ul.footer_menu li:nth-child(4), ul.footer_menu li:nth-child(6), ul.footer_menu li:nth-child(7) {
+ul.footer_menu > li:nth-child(3), ul.footer_menu > li:nth-child(4), ul.footer_menu li:nth-child(7) {
   display: none;
 }
 .make-connection, [class='module'] {
